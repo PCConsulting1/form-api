@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public record Household(
   Integer id,
-  Boolean taxFiled,
+  Boolean taxIsFiled,
   String returnType,
   String filingStatus,
   Integer adjustedGrossIncome,
@@ -26,7 +26,7 @@ public record Household(
   Integer standardDeductions,
   Integer businessIncomeDeductions,
   Integer federalTaxesPaid,
-  Boolean schedule1Filed,
+  Boolean schedule1IsFiled,
   Integer taxableRefundCredits,
   Integer alimonyReceived,
   Integer businessIncome,
@@ -41,8 +41,8 @@ public record Household(
   Integer selfEmployedSEP,
   Integer alimonyPaid,
   Integer IRADeduction,
-  Boolean schedule2Filed,
-  Boolean schedule3Filed,
+  Boolean schedule2IsFiled,
+  Boolean schedule3IsFiled,
   Integer educationCredits,
   Integer retirementContribution,
   Integer healthSavingsAccountContribution,
