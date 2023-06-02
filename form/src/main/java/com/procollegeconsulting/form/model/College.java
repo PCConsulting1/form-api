@@ -4,6 +4,6 @@ public record College (
   String name,
   String incomingGrade,
   String housingStatus,
-  Boolean appliedBefore,
+  Boolean hasAppliedBefore,
   Boolean isTransfer
 ){}
