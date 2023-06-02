@@ -39,7 +39,7 @@ public record Student(
   Integer taxableInterest,
   Integer ordinaryDividends,
   Integer deductions,
-  Boolean schedule3Filed,
+  Boolean isSchedule3Filed,
   Integer educationCredits,
   Integer incomeFromWork,
   Integer taxableEarnings,
