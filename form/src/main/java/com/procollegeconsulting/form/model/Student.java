@@ -24,7 +24,7 @@ public record Student(
   Boolean hasLegalDependants,
   Boolean isVeteran,
   Boolean wasEmancipatedMinor,
-  Boolean wasHomeless,
+  Boolean isHomeless,
   Boolean wasWardOfTheCourt,
   Boolean wasFosterCare,
   ArrayList<Guardian> guardians,
