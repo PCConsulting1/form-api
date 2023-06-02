@@ -21,5 +21,9 @@ public class HouseholdRepository {
     return householdList.stream().filter(item -> item.id().equals(id)).findFirst();
   }
 
+  public void create(Household household){}
+
+  public void update(Household household){}
+
 
 }
