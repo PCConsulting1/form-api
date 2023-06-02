@@ -10,8 +10,8 @@ public record Parent(
   String email,
   LocalDate birthDate,
   String highestEducation,
-  Integer income,
-  Integer expectedIncome,
+  Integer incomeFromWork,
+  Integer expectedIncomeFromWork,
   String employmentStatus,
   Boolean isVeteran,
   Boolean isDislocatedWorker,
@@ -23,6 +23,7 @@ public record Parent(
   Boolean hasSocialSecurityRetirement,
   Boolean hasEmployerSponsoredRetirement,
   Boolean hasCivilServiceRetirement,
+  Boolean hasUnionSponsoredRetirement,
   Boolean hasMilitarySponsoredRetirement,
   Boolean hasOtherRetirement,
   Integer retirementValue
