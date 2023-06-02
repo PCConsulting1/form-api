@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public record Household(
   Integer id,
-  Boolean isTaxFiled,
-  String returnType,
+  Boolean is1040Filed,
+  String taxReturnType,
   String filingStatus,
   Integer adjustedGrossIncome,
   Integer wagesSalariesTips,
