@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public record Household(
+  Integer id,
   Boolean taxFiled,
   String returnType,
   String filingStatus,

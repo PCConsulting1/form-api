@@ -3,6 +3,7 @@ package com.procollegeconsulting.form.model;
 import java.time.LocalDate;
 
 public record Parent(
+  Integer id,
   String firstName,
   String lastName,
   String socialSecurity,
